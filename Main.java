@@ -7,6 +7,10 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        // This is the code to get the number of services at all stations on each day of the week
+        
+        // Flags to run it: "C:\Program Files\Java\jdk-16.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.1\lib\idea_rt.jar=51339:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\thedi\IdeaProjects\StfcTest\out\production\StfcTest Main
+        
         String[] days = new String[] {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
 
         Date startDateObj = new Date();
