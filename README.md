@@ -13,3 +13,15 @@ Some links to helpful resources/documentation
  - [Pandas data frames](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
  - [CIF schedule records](https://wiki.openraildata.com/index.php/CIF_Schedule_Records)
  - [matplotlib](https://matplotlib.org/) - with a link on the main page to examples including code blocks
+
+
+# DOCKER
+Build the container by being in the same dir as `Dockerfile` and running `docker build -t trains-model .`
+
+Run the container with `docker run trains-model -v inputs/:/data/inputs/ -v outputs/:data/outputs/`
+
+TODO:
+- Add comments to the java file for so future devs can make changes
+- Make the date info that is currently hardcoded either get its info from the cif header, or take in as an env variable
+- Check the expected names of the input and output files
+-
