@@ -1,0 +1,19 @@
+api_version: v1beta1
+kind: model
+metadata:
+  display_name: cif-to-station-summary
+  name: cif-to-station-summary
+  summary: Gets train frequency data for each station in the network defined by the input CIF file
+  type: model
+  description: Gets train frequency data for each station in the network defined by the input CIF file
+  publisher: DAFNI
+spec:
+  inputs:
+    dataslots:
+      - name: input_cif
+        description: The input cif file
+        path: /inputs
+        default:
+          - 426523a3-be25-4c02-ac08-8b8e947a027a
+          - 896a1c65-8651-4d6a-9319-c0fc24f68082
+        required: true
